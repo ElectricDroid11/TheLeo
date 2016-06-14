@@ -450,16 +450,21 @@ a:hover {
 header {
   padding-top: 40px;
   padding-bottom: 40px;
-  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
-  background: #2e7bcf url(../images/header-bg.jpg) 0 0 repeat-x;
-  border-bottom: solid 1px #275da1;
+  background: #FF0000;
+  border-bottom: solid 1px #FFFFFF;
+}
+
+header hr {
+  color: #000;
+  background: #000;
+  background-color: #000;
 }
 
 header h1 {
   width: 540px;
   margin-top: 0;
-  margin-bottom: 0.2em;
-  font-size: 72px;
+  margin-bottom: 0.1em;
+  font-size: 62px;
   font-weight: normal;
   line-height: 1;
   color: #fff;
@@ -473,7 +478,7 @@ header h2 {
   font-size: 26px;
   font-weight: normal;
   line-height: 1.3;
-  color: #9ddcff;
+  color: #000;
   letter-spacing: 0;
 }
 
@@ -490,7 +495,7 @@ header h2 {
 
 #main-content {
   float: left;
-  width: 690px;
+  width: 590px;
 }
 
 #main-content img {
@@ -499,10 +504,10 @@ header h2 {
 
 aside#sidebar {
   float: right;
-  width: 200px;
+  width: 300px;
   min-height: 504px;
   padding-left: 20px;
-  font-size: 12px;
+  font-size: 15px;
   line-height: 1.3;
   background: transparent url(../images/sidebar-bg.jpg) 0 0 no-repeat;
 }
@@ -514,6 +519,20 @@ aside#sidebar p.repo-owner a {
 
 #downloads {
   margin-bottom: 40px;
+}
+
+section0 {
+  background: #000;
+}
+
+#mods {
+  width: 8em;  height: 2em;
+  background: #fff;
+}
+
+#comentarios {
+  width: 8em;  height: 2em;
+  background: #fff;
 }
 
 a.button {
@@ -647,7 +666,6 @@ form {
 #main-content h3 {
   margin-top: 24px;
   margin-bottom: 8px;
-  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
   font-size: 18px;
   font-weight: bold;
   color: #474747;
@@ -820,10 +838,10 @@ footer a:hover {
     width: 100%;
   }
   header h1 {
-    font-size: 48px;
+    font-size: 40px;
   }
   header h2 {
-    font-size: 24px;
+    font-size: 20px;
   }
   header a.button {
     position: relative;
