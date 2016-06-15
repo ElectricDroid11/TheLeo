@@ -544,6 +544,10 @@ section0 {
   background: #fff;
 }
 
+#resolucion-imagen {
+    width: 20em;  height: 11em;
+}
+
 a.button {
   width: 134px;
   height: 58px;
